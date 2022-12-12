@@ -1,0 +1,47 @@
+.blockGreetings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.greetings {
+  font-family: 'Rubik Distressed', cursive;
+  font-size: 50px;
+  padding-top: 250px;
+}
+
+.input {
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  background-color: #bfffac;
+  padding: 7px 0px 7px 15px;
+}
+
+.formBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px 20px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  border: none;
+  padding: 6px 13px 6px 13px;
+  border-radius: 6px;
+  background-color: #4caf50;
+  margin-left: 4px;
+}
+/*# sourceMappingURL=Main.module.css.map */

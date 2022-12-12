@@ -1,0 +1,65 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.mainBlock {
+  --auto-grid-min-size: 16rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(var(--auto-grid-min-size), 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.parentBlock {
+  background-color: #bfffac;
+  border-radius: 7px;
+  padding: 5px 5px 0px 5px;
+}
+
+.parentBlockUndone {
+  background-color: #fbaa91;
+  border-radius: 7px;
+  padding: 5px 5px 0px 5px;
+}
+
+.block {
+  min-height: 250px;
+  max-height: 250px;
+  width: auto;
+  word-break: break-all;
+  padding: 5px 5px 33px 5px;
+  overflow: scroll;
+  word-break: break-all;
+}
+
+.blockText {
+  font-size: 20px;
+}
+
+.blockDone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: -2px;
+  background-color: inherit;
+  border-radius: 0px 0px 7px 7px;
+  margin-bottom: 10px;
+}
+
+.doneImg {
+  width: 22px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.deleteImg {
+  width: 22px;
+  cursor: pointer;
+  margin-top: 6px;
+}
+/*# sourceMappingURL=Task.module.css.map */

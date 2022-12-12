@@ -1,0 +1,24 @@
+.sortDesr {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sortChoose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80px;
+  background-color: #4caf50;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 130px;
+  margin: auto;
+  position: absolute;
+}
+/*# sourceMappingURL=Sort.module.css.map */
